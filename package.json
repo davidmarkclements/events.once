@@ -1,0 +1,26 @@
+{
+  "name": "events.once",
+  "version": "1.0.0",
+  "description": "Polyfill for Node core `events.once",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": [
+    "events",
+    "once",
+    "promise",
+    "polyfill",
+    "EventEmitter",
+    "async",
+    "async/await",
+    "await",
+    "node core"
+  ],
+  "author": "David Mark Clements <david.mark.clements@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^12.5.3"
+  },
+  "dependencies": {}
+}

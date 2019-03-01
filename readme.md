@@ -1,6 +1,6 @@
 # events.once
 
-Polyfill for Node core (`events.once`)[https://nodejs.org/dist/latest-v10.x/docs/api/events.html#events_once_emitter_name].
+Polyfill for Node core [`events.once`](https://nodejs.org/dist/latest-v10.x/docs/api/events.html#events_once_emitter_name).
 
 ## Usage 
 

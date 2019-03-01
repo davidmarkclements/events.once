@@ -22,5 +22,13 @@
   "devDependencies": {
     "tap": "^12.5.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/events.once.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/events.once/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/events.once#readme"
 }

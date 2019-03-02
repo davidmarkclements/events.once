@@ -4,6 +4,11 @@ const { test } = require('tap')
 const EventEmitter = require('events')
 const once = require('.')
 
+test('polyfil', async ( { is } ) => {
+  require('./polyfill')
+  is(once, EventEmitter.once)
+})
+
 test('once an event', async ( { is } ) => {
   const ee = new EventEmitter()
 

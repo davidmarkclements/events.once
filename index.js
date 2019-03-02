@@ -1,8 +1,6 @@
 'use strict'
 
-const events = require('events')
-
-function once (emitter, name) {
+module.exports = function once (emitter, name) {
   return new Promise((resolve, reject) => {
     const onceError = name === 'error'
     const listener = onceError ? resolve : (...args) => {
@@ -18,7 +16,3 @@ function once (emitter, name) {
     emitter.once('error', error)
   })
 }
-
-events.once = events.once || once
-
-module.exports = events.once

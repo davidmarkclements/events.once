@@ -36,7 +36,7 @@ Instead of requiring directly it can also be preloaded
 when starting a process:
 
 ```sh
-node -r events.once/polyfill
+node -r events.once/polyfill my-app.js
 ```
 
 

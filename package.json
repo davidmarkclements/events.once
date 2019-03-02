@@ -1,6 +1,6 @@
 {
   "name": "events.once",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Polyfill for Node core `events.once",
   "main": "index.js",
   "scripts": {

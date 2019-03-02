@@ -15,7 +15,9 @@
     "async",
     "async/await",
     "await",
-    "node core"
+    "node core",
+    "browserify",
+    "webpack"
   ],
   "author": "David Mark Clements <david.mark.clements@gmail.com>",
   "license": "MIT",

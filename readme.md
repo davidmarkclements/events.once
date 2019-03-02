@@ -66,6 +66,14 @@ async function run() {
 run()
 ```
 
+### Does it work with WebPack? 
+
+Yes
+
+### Does it work with Browserify? 
+
+Yes
+
 ## License
 
 MIT
